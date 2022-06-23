@@ -3,14 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>renansan | me</title>
+  <title>renansan</title>
+  <link rel="icon" type="image/png" href="favicon.png"/>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,500,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    :root {
+      --bg-color: #fafafa;
+      --text-color: #435b5d;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html, body {
+      background-color: var(--bg-color);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font: 400 62.5% Open Sans, Helvetica, Arial, sans-serif;
+      height: 100%;
+      width: 100%;
+    }
+    a {
+      color: inherit;
+      font: inherit;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ::selection {
+      background-color: var(--text-color);
+      color: #fff;
+    }
+    .header-home {
+      align-content: center;
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+      justify-content: center;
+      width: 100%;
+    }
+    .home-brand {
+      color: var(--text-color);
+      display: block;
+      font: 300 8rem Raleway, Open Sans, sans-serif;
+      text-align: left;
+      text-transform: lowercase;
+    }
+    .home-brand b {
+      font-weight: 500;
+    }
+  </style>
 </head>
 <body>
   <header class="header header-home">
     <h1 class="home-brand">
-      <a href="https://renansan.github.io ">Renan<b>San</b>|me</a>
+      Renan<b>San</b>
     </h1>
   </header>
 </body>
